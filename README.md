@@ -93,7 +93,7 @@ If you find our work useful, please consider citing our work using the bibtex:
 
 **Abstract:** The analysis of built-up areas has always been a popular research topic for remote sensing applications. However, automatic extraction of built-up areas from a wide range of regions remains challenging. In this article, a fully convolutional network (FCN)–based strategy is proposed to address built-up area extraction. The proposed algorithm can be divided into two main steps. First, divide the remote sensing image into blocks and extract their deep features by a lightweight multi-branch convolutional neural network (LMB-CNN). Second, rearrange the deep features into feature maps that are fed into a well-designed FCN for image segmentation. Our FCN is integrated with multi-branch blocks and outputs multi-channel segmentation masks that are utilized to balance the false alarm and missing alarm. Experiments demonstrate that the overall classification accuracy of the proposed algorithm can achieve 98.75% in the test data set and that it has a faster processing compared with the existing state-of-the-art algorithms.
 
-![image](images/FCN-workflow.png)  
+![image](images/FCN-workflow1.png)  
 **Fig. 7.** Main framework of the proposed built-up area detection algorithm that based on LMB-FCN.
 
 ![image](images/FCN-net.png)  
